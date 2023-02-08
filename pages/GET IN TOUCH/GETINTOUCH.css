@@ -1,0 +1,123 @@
+*{}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    width: 100%;
+    height: 70px;
+    display: inline-flex;
+    padding-left: 100px;
+    border-bottom: solid #6A5237 1px;
+    position: fixed;
+    margin-bottom: 70px;
+    background-color: white;
+}
+.logo{
+    width: 100px;
+    height: 90px;
+    margin-top: -10px;
+}
+ul{
+    display: inline-flex;
+    margin-left: 600px;
+    text-decoration: none;
+    list-style: none;
+    }
+li, a{
+        padding-left: 25px;
+        text-decoration: none;
+        color: black;
+    }
+header ul li a:hover{
+        color:#C49A6C;  }
+main{
+        padding-top: 70px;
+    }
+.about-us{
+    display: flex;
+    width: 100%;
+    background-image: linear-gradient( #C49A6C , #6A5237);
+    text-align: center;
+    color: white;
+    padding: 50px 0 50px 0;
+    justify-content: center;
+}
+.location, .time{
+    margin-right: 100px;
+}
+.media{
+    text-align: center;
+    justify-content: center;
+    padding: 100px 0 100px 0;
+}
+.fb, .twitter, .ig, .linkedin{
+    width: 30px; 
+    height: 30px;
+}
+button{
+    background-image: linear-gradient( #C49A6C , #6A5237);
+    width: 100px;
+    height: 40px;
+    border: #C49A6C solid 0.2px;
+    color: white;
+    font-size: 15px;
+}
+.project{
+    display: flex;
+    box-shadow: 10px 0 10px 0 #b49776;
+    padding: 50px 0 50px 150px ;
+}
+.message-us{
+    width: 150px;
+    height: 40px;
+    margin-left: 260px;
+    color: white;
+    margin-top: 20px;
+    padding-right: 23px;
+    border-radius: 2px;
+}
+.mes{
+    color: white;
+}
+.footer-logo{
+        width: 100px;
+    }
+.footer{
+        display: flex;
+        padding-left: 200px;
+        background-color: #EEEAE3;
+        color: rgb(132, 132, 132);
+        
+    }
+.copyright{
+        text-align: center;
+        padding: 10px 0 10px 0;
+        background-image: linear-gradient( #C49A6C , #6A5237);
+        color: white;
+    }
+.icon{
+        width: 20px;
+        height: 20px;
+        margin-left: -25px;
+    }
+    .comp, .chat, .add{
+        margin-left: 100px;
+    }
+    @media (max-width:100%){
+        header ul{
+            width: 100px;
+            position: absolute;
+            top: 75px;
+            right: 0;
+            z-index: 2;
+        }
+        header ul li{
+            display: block;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        header ul li a{
+            color: #000;
+        }
+    }
